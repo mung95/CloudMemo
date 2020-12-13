@@ -46,7 +46,11 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:text="New Create"
+            android:textAllCaps="false"
+            android:shadowColor="#85D8E3"
+            android:layout_weight="1"
+            android:onClick="onClick"/>
 
 
 
