@@ -15,11 +15,9 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter></activity>
-
-
-        <activity android:name=".CreateMemo">
+            </intent-filter>
         </activity>
+        <activity android:name=".CreateMemo"></activity>
     </application>
 
 </manifest>
