@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         tv_count.setText(lv_Main.childCount.toString() + "개의 메모")
 
         val database : FirebaseDatabase = FirebaseDatabase.getInstance()
@@ -33,18 +33,6 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item?.itemId){
-            android.R.id.home ->{
-                finish()
-                return true
-            }
-            else -> {
-                return super.onOptionsItemSelected(item)
-            }
-
-        }
-    }
 
     fun onClick(view: View) {
         val intent = Intent(this@MainActivity, CreateMemo::class.java)

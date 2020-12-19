@@ -32,4 +32,12 @@ class CreateMemo : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
+
+    fun onClick_Save(item: MenuItem)
+    {
+
+
+        finish()
+    }
+
 }
