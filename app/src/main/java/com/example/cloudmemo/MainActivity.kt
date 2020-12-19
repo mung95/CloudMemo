@@ -10,6 +10,9 @@ import androidx.core.view.size
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -28,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         when(item?.itemId){
             android.R.id.home ->{
                 finish()
+
                 return true
             }
             else -> {

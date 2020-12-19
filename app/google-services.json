@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326372442731",
+    "project_id": "cloudmemo-30768",
+    "storage_bucket": "cloudmemo-30768.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326372442731:android:07ce7c17a57e9b5be2272e",
+        "android_client_info": {
+          "package_name": "com.example.cloudmemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326372442731-4854ehs6sti9kguj6fkjg449ks88tn5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmDGIqazWu9eRrMvRBit0QQTz9ENkEIwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326372442731-4854ehs6sti9kguj6fkjg449ks88tn5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
